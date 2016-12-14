@@ -1,0 +1,173 @@
+/*name: Yana Kirova, ID: 16404534*/
+
+body{
+  background-color:  #d9d9d9;
+}
+
+header {
+    font-family: 'Tangerine', serif;
+    font-size: 0em;
+    line-height: 0.85;
+    text-align: center;
+    background-color: #ffccff;
+    border:  black;
+}
+
+footer{
+  background-color: #ffccff;
+
+}
+
+b {
+    font-size: 110px;
+}
+
+i { font-size: 42px;
+}
+
+section { margin: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+img {
+    /*styles for images in homepage */
+filter:grayscale(95%);
+    border-radius:50% ;
+  border: 4px solid black;
+    width: 300px;
+    heigh: 300px;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 0px;
+display:block;
+}
+
+img:hover{
+  filter: none;
+  border:4px solid  #ffccff;
+}
+span {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 4px 10px;
+    color: black;
+text-decoration: none;
+    font-size: 35px;
+  }
+
+
+
+ul { /*menu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d9d9d9;
+    border-radius: 15%;
+    box-shadow: grey 10px 10px;
+    border: 1px solid black;
+}
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:grey;
+}
+
+a.active {
+    background-color:#ffccff;
+}
+/*form*/
+div.form{
+    display: flex;
+    justify-content: space-around;
+}
+
+form { margin: 20px;
+    height: 400px;
+    width: 360px;
+    background-color: #ffccff;
+    border-radius: 5%;
+    border: 1px solid black;
+
+}
+form label {
+  font-size: 22px;
+display: block;
+text-align:left;
+}
+
+form input{
+  padding: 12px 20px;
+  border-radius: 15%;
+border: solid 1px black;
+resize:none
+}
+
+form div {
+  text-align: center;
+}
+/*form end */
+
+h2{ border: 1px solid black;
+  text-align: center;
+  background-color: #ffccff;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 25px;
+}
+h5{
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+}
+img.cv1{
+  height:190px;
+  width:190px;
+  float:left;
+    filter: none;
+    border:1px solid black;
+}
+
+section.maincontainer{ border:1px solid black;
+  display:flex;
+  align-items: stretch;
+}
+div.cvcontainer1{ border:1px solid black;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+div.cvcontainer2{ border:1px solid black;
+  display:flex;
+  flex:1 auto;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+
+li.skills{ float: left;
+  margin: auto;
+}
+
+p{
+  text-align: left;
+}
