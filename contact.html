@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <!-- name: Yana Kirova; Student ID: 16404534 -->
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Contact</title>
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-<a href="mailto:qna_kirova@abv.bg">Email me </a>
-  </body>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="cv.html">CV </a></li>
+            <li><a href="bio.html">About me </a></li>
+            <li><a class="active" href="contact.html">Contact </a></li>
+        </ul>
+    </div> <br>
+    <header>
+        <b>Contact me </b>
+    </header>
+    <hr>
+    <hr>
+<div class="form">
+<form action="/my-handling-form-page" method="post">
+  <label for="name">Ask me !</label>
+            <div>
+              <label for="name">First name:</label>
+                <input type="text" id="firstname" name="user_firstname" />
+            </div>
+            <div>
+              <label for="name">Surname:</label>
+                <input type="text" id="surname" name="user_surname" />
+            </div>
+
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_mail" />
+            </div>
+            <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <hr><hr>
+    <footer> © Yana Kirova 2016 <br >
+    <a target="facebook" title="find me on Facebook" href="http://www.facebook.com/ana.kirova1">
+    Find me on Facebook </a></footer>
+</body>
+
 </html>
