@@ -1,7 +1,6 @@
 /*name: Yana Kirova, ID: 16404534*/
-
 body{
-  background-color:  #d9d9d9;
+  background-image: image(3.jpg);
 }
 
 header {
@@ -59,7 +58,7 @@ text-decoration: none;
 
 
 
-ul { /*menu*/
+ul.menu { /*menu*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -70,12 +69,12 @@ ul { /*menu*/
     border: 1px solid black;
 }
 
-li {
+li.menu {
     float: left;
     border-right: 1px solid black;
 }
 
-li a {
+li.menu a {
     display: block;
     color: black;
     text-align: center;
@@ -83,7 +82,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li.menu a:hover {
     background-color:grey;
 }
 
@@ -96,29 +95,38 @@ div.form{
     justify-content: space-around;
 }
 
-form { margin: 20px;
-    height: 400px;
-    width: 360px;
+form { margin:20px;
+  padding: 20px;
+    height: 470px;
+    width: 510px;
     background-color: #ffccff;
     border-radius: 5%;
-    border: 1px solid black;
+    border: 0px solid black;
 
 }
-form label {
-  font-size: 22px;
+form label { font-weight: bold;
+font-size: 21px;
 display: block;
 text-align:left;
 }
 
-form input{
+form input{width: 92%;
+  margin: 5px 1px 5px 1px;
   padding: 12px 20px;
-  border-radius: 15%;
 border: solid 1px black;
 resize:none
 }
 
 form div {
   text-align: center;
+}
+button{ 
+  background-color: #d9d9d9;
+    border-radius: 8%;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 13px;
 }
 /*form end */
 
@@ -163,7 +171,12 @@ div.cvcontainer2{ border:1px solid black;
   justify-content: flex-start;
 }
 
+ul.skills{   list-style-type: circle;
+  margin: 10;
+  padding: 10;
 
+
+}
 li.skills{ float: left;
   margin: auto;
 }
