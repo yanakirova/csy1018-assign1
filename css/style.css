@@ -1,6 +1,9 @@
 /*name: Yana Kirova, ID: 16404534*/
-body{
-  background-image: image(3.jpg);
+
+body {
+    background-image: image(3.jpg);
+    font-family: 'Amiri', serif;
+    font-weight: bold;
 }
 
 header {
@@ -9,58 +12,57 @@ header {
     line-height: 0.85;
     text-align: center;
     background-color: #ffccff;
-    border:  black;
+    border: black;
 }
 
-footer{ font-family: 'Amiri', serif;
-  background-color: #ffccff;
-
+footer {
+    font-family: 'Amiri', serif;
+    background-color: #ffccff;
 }
 
 b {
     font-size: 110px;
 }
 
-i { font-size: 42px;
+i {
+    font-size: 42px;
 }
 
-section { margin: 80px;
+section {
+    margin: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
 }
 
-img.home {
-    /*styles for images in homepage */
-filter:grayscale(95%);
-    border-radius:50% ;
-  border: 4px solid black;
+img.home {                                  /*styles for images in homepage*/
+    filter: grayscale(95%);
+    border-radius: 50%;
+    border: 4px solid black;
     width: 300px;
     heigh: 300px;
     box-shadow: rgba(0, 0, 0, 0.4) 10px 0px;
-display:block;
+    display: block;
 }
 
-img.home:hover{
-  filter: none;
-  border:4px solid  #ffccff;
+img.home:hover {
+    filter: none;
+    border: 4px solid #ffccff;
 }
+
 span {
     display: block;
     text-align: center;
-    font-family: 'Amiri', serif;
     font-weight: bold;
+    text-decoration: none;
     margin: 0;
     padding: 4px 10px;
     color: black;
-text-decoration: none;
     font-size: 35px;
-  }
+}
 
-
-
-ul.menu { /*menu*/
+ul.menu {                                   /*navigation menu*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -85,136 +87,142 @@ li.menu a {
 }
 
 li.menu a:hover {
-    background-color:grey;
+    background-color: grey;
 }
 
 a.active {
-    background-color:#ffccff;
+    background-color: #ffccff;
 }
 
-img.icon{
-  height:15px;
-  width: 20px;
+img.icon {
+    height: 18px;
+    width: 21px;
 }
-/*form*/
-div.form{
+
+div.form {                                         /*form*/
     display: flex;
     justify-content: space-around;
 }
 
-form { margin:20px;
-  padding: 20px;
+form {
+    margin: 20px;
+    padding: 20px;
     height: 500px;
     width: 510px;
     background-color: #ffccff;
     border-radius: 5%;
-    border: 0px solid black;
-
-}
-form label { font-family: 'Amiri', serif;
-font-weight: bold;
-font-size: 21px;
-display: block;
-text-align:left;
+    border: 1px solid black;
 }
 
-form input{width: 92%;
-  margin: 5px 1px 5px 1px;
-  padding: 12px 20px;
-border: solid 1px black;
-resize:none
+form label {
+    font-weight: bold;
+    font-size: 21px;
+    display: block;
+    text-align: left;
+}
+
+form input {
+    width: 92%;
+    margin: 5px 1px 5px 1px;
+    padding: 12px 20px;
+    border: solid 1px black;
+    resize: none
 }
 
 form div {
-  text-align: center;
+    text-align: center;
 }
-button{ font-family: 'Amiri', serif;
-font-weight: bold;
-  background-color: #d9d9d9;
+
+button {
+    font-weight: bold;
+    background-color: #d9d9d9;
     border-radius: 8%;
     color: black;
     padding: 10px 30px;
     text-align: center;
     font-size: 15px;
 }
-/*form end */
 
-h2{ border: 1px solid black;
-  text-align: center;
-  background-color: #ffccff;
-font-family: 'Amiri', serif;
-  font-size: 25px;
-}
-h5{
-  text-align: center;
+h2 {                                                /*cv*/
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    background-color: #ffccff;
+    font-size: 25px;
 }
 
-h4 {
-  text-align: left;
-}
-img.cv1{
-  height:190px;
-  width:190px;
-  float:left;
-    filter: none;
-    border:1px solid black;
+img.cv1 {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 0px;
+    height: 190px;
+    width: 190px;
+    border: 1px solid black;
 }
 
-section.maincontainer{ background-color:  #d9d9d9;
-  border:1px solid black;
-  display:flex;
-  align-items: stretch;
-}
-div.cvcontainer1{ border:1px solid black;
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-
+section.maincontainer {
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    border-radius: %;
+    display: flex;
+    align-items: stretch;
 }
 
-div.cvcontainer2{ border:1px solid black;
-  display:flex;
-  flex:1 auto;
-  flex-direction:column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
+div.cvcontainer1 {
+    border: 0px solid black;
+    border-radius: %;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-ul.skills{ font-family: 'Amiri', serif;
-font-weight: bold;
-   list-style-type: disk;
-  margin: 10;
-  padding: 10;
-
-
-}
-li.skills{
-  float: left;
-  margin: auto;
-
+div.cvcontainer2 {
+    border: 1px solid black;
+    border-radius: %;
+    display: flex;
+    flex: 1 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
-p{
-  text-align: left;
-}
-div.language{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+ul.cv {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10;
+    padding: 10;
+    letter-spacing: 1px;
 }
 
- div.circle{
-   background: green;
-   border: 2px solid black;
+li.cv {
+    list-style-type: disk;
+    float: left;
+    margin: auto;
+}
+
+li.date {
+    list-style-type: none;
+    float: right;
+}
+
+div.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.circle {
+    background: green;
+    border: 1px solid black;
     width: 18px;
     height: 18px;
     border-radius: 50%;
- }
-div.circle1{
-  background: none;
-  border: 2px solid black;
-   width: 18px;
-   height: 18px;
-   border-radius: 50%;
+}
+
+div.circle1 {
+    background: none;
+    border: 1px solid black;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
 }
