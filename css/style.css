@@ -109,7 +109,7 @@ form {
     padding: 20px;
     height: 500px;
     width: 510px;
-    background-color: #ffccff;
+    background-color: #d9d9d9;
     border-radius: 5%;
     border: 1px solid black;
 }
@@ -135,7 +135,7 @@ form div {
 
 button {
     font-weight: bold;
-    background-color: #d9d9d9;
+    background-color: #ffccff;
     border-radius: 8%;
     color: black;
     padding: 10px 30px;
@@ -162,7 +162,7 @@ img.cv1 {
 section.maincontainer {
     background-color: #d9d9d9;
     border: 1px solid black;
-    border-radius: %;
+    border-radius: 5%;
     display: flex;
     align-items: stretch;
 }
@@ -174,16 +174,20 @@ div.cvcontainer1 {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 5px;
+    padding: 10px;
 }
 
 div.cvcontainer2 {
-    border: 1px solid black;
+    border-left: 1px solid black;
     border-radius: %;
     display: flex;
     flex: 1 auto;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    margin: 5px;
+    padding: 10px;
 }
 
 ul.cv {
@@ -225,4 +229,27 @@ div.circle1 {
     width: 18px;
     height: 18px;
     border-radius: 50%;
+}
+
+div.cvcontainer3 {                       /*bio*/
+    border-left: 1px solid black;
+    display: flex;
+    flex: 1 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+div.cvcontainer4 {
+  margin: 5px;
+  padding: 10px;
+    border: 0px solid black;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
