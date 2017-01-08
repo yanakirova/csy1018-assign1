@@ -1,7 +1,7 @@
 /*name: Yana Kirova, ID: 16404534*/
 
 body {
-    background-image: image(3.jpg);
+    background:url(../images/4.jpg) no-repeat fixed;
     font-family: 'Amiri', serif;
     font-weight: bold;
 }
@@ -22,10 +22,39 @@ footer {
 
 b {
     font-size: 110px;
+    animation: animation1 2s linear;
+}
+
+@keyframes animation1 {
+  0% {
+    color:#ffccff;
+    }
+
+ 50%{
+   color: #808080;
+ }
+
+ 100% {
+    color: black;
+  }
 }
 
 i {
     font-size: 42px;
+    animation: animation2 2s linear;
+}
+
+@keyframes animation2 {
+  0% {
+    color:#ffccff;
+    }
+
+ 50%{
+   color: #808080;
+ }
+ 100% {
+    color: black;
+}
 }
 
 section {
@@ -102,6 +131,9 @@ img.icon {
 div.form {                                         /*form*/
     display: flex;
     justify-content: space-around;
+}
+div.button {
+  text-align: center;
 }
 
 form {
