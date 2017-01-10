@@ -91,7 +91,7 @@ span {
     font-size: 35px;
 }
 
-ul.menu {                                   /*navigation menu*/
+ul.menu {                                   /*navigation bar*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -203,7 +203,6 @@ section.maincontainer {
 
 div.cvcontainer1 {
     border: 0px solid black;
-    border-radius: %;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -276,6 +275,7 @@ div.cvcontainer3 {                       /*bio*/
     margin: 5px;
     padding: 10px;
 }
+
 div.cvcontainer4 {
   margin: 5px;
   padding: 10px;
@@ -285,5 +285,84 @@ div.cvcontainer4 {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+}
+@media screen and (max-width: 400px) {           /*media query*/
+   footer{
+     font-size: 10px;
+   }
+
+    section { align-items: center;;
+      flex-direction: column;
+  }
+
+b{
+font-size: 70px;
+}
+
+i{
+  font-size: 30px;
+}
+
+  img.home{
+    width: 220px;
+    height:220px;
+  }
+
+span{
+    font-size: 28px;
+  }
+
+img.cv1{
+  width: 150px;
+  height: 150px;
+}
+ul.cv{
+  font-size: 14px;
+}
+
+h2{
+  font-size: 15px;
+}
+
+
+div.cvcontainer2{
+  border:none;
+}
+
+div.cvcontainer3{
+  border:none;
+}
+
+form{
+  height: 230px;
+  width:200px;
+}
+
+form label{
+  font-size: 11px;
+}
+
+form input{
+  margin: 2px 0px 2px 0px;
+  padding: 2px 4px;
+  height: 5px;
+  width: 200px;
+}
+
+textarea{
+  height: 40px;
+  width: 200px;
+}
+
+button{
+font-size: 5px;
+}
+nav{
+  font-size: 12px;
+}
+img.icon {
+    height: 13px;
+    width: 16px;
+}
 
 }
