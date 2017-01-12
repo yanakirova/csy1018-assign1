@@ -1,7 +1,7 @@
 /*name: Yana Kirova, ID: 16404534*/
 
 body {
-    background:url(../images/4.jpg) no-repeat fixed;
+    background: url(../images/4.jpg) no-repeat fixed;
     font-family: 'Amiri', serif;
     font-weight: bold;
 }
@@ -26,17 +26,15 @@ b {
 }
 
 @keyframes animation1 {
-  0% {
-    color:#ffccff;
+    0% {
+        color: #ffccff;
     }
-
- 50%{
-   color: #808080;
- }
-
- 100% {
-    color: black;
-  }
+    50% {
+        color: #808080;
+    }
+    100% {
+        color: black;
+    }
 }
 
 i {
@@ -45,16 +43,15 @@ i {
 }
 
 @keyframes animation2 {
-  0% {
-    color:#ffccff;
+    0% {
+        color: #ffccff;
     }
-
- 50%{
-   color: #808080;
- }
- 100% {
-    color: black;
-}
+    50% {
+        color: #808080;
+    }
+    100% {
+        color: black;
+    }
 }
 
 section {
@@ -65,7 +62,8 @@ section {
     align-items: flex-end;
 }
 
-img.home {                                  /*styles for images in homepage*/
+img.home {
+    /*styles for images in homepage*/
     filter: grayscale(95%);
     border-radius: 50%;
     border: 4px solid black;
@@ -91,7 +89,8 @@ span {
     font-size: 35px;
 }
 
-ul.menu {                                   /*navigation bar*/
+ul.menu {
+    /*navigation bar*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -128,12 +127,14 @@ img.icon {
     width: 21px;
 }
 
-div.form {                                         /*form*/
+div.form {
+    /*form*/
     display: flex;
     justify-content: space-around;
 }
+
 div.button {
-  text-align: center;
+    text-align: center;
 }
 
 form {
@@ -176,7 +177,8 @@ button {
     font-size: 15px;
 }
 
-h2 {                                                /*cv*/
+h2 {
+    /*cv*/
     border: 1px solid black;
     border-radius: 5%;
     text-align: center;
@@ -264,7 +266,8 @@ div.circle1 {
     border-radius: 50%;
 }
 
-div.cvcontainer3 {                       /*bio*/
+div.cvcontainer3 {
+    /*bio*/
     border-left: 1px solid black;
     display: flex;
     flex: 1 auto;
@@ -277,8 +280,8 @@ div.cvcontainer3 {                       /*bio*/
 }
 
 div.cvcontainer4 {
-  margin: 5px;
-  padding: 10px;
+    margin: 5px;
+    padding: 10px;
     border: 0px solid black;
     border-radius: 5%;
     display: flex;
@@ -286,83 +289,71 @@ div.cvcontainer4 {
     flex-wrap: wrap;
     justify-content: center;
 }
-@media screen and (max-width: 400px) {           /*media query*/
-   footer{
-     font-size: 10px;
-   }
 
-    section { align-items: center;;
-      flex-direction: column;
-  }
-
-b{
-font-size: 70px;
-}
-
-i{
-  font-size: 30px;
-}
-
-  img.home{
-    width: 220px;
-    height:220px;
-  }
-
-span{
-    font-size: 28px;
-  }
-
-img.cv1{
-  width: 150px;
-  height: 150px;
-}
-ul.cv{
-  font-size: 14px;
-}
-
-h2{
-  font-size: 15px;
-}
-
-
-div.cvcontainer2{
-  border:none;
-}
-
-div.cvcontainer3{
-  border:none;
-}
-
-form{
-  height: 230px;
-  width:200px;
-}
-
-form label{
-  font-size: 11px;
-}
-
-form input{
-  margin: 2px 0px 2px 0px;
-  padding: 2px 4px;
-  height: 5px;
-  width: 200px;
-}
-
-textarea{
-  height: 40px;
-  width: 200px;
-}
-
-button{
-font-size: 5px;
-}
-nav{
-  font-size: 12px;
-}
-img.icon {
-    height: 13px;
-    width: 16px;
-}
-
+@media screen and (max-width: 400px) {
+    /*media query*/
+    footer {
+        font-size: 10px;
+    }
+    section {
+        align-items: center;
+        ;
+        flex-direction: column;
+    }
+    b {
+        font-size: 70px;
+    }
+    i {
+        font-size: 30px;
+    }
+    img.home {
+        width: 220px;
+        height: 220px;
+    }
+    span {
+        font-size: 28px;
+    }
+    img.cv1 {
+        width: 150px;
+        height: 150px;
+    }
+    ul.cv {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    div.cvcontainer2 {
+        border: none;
+    }
+    div.cvcontainer3 {
+        border: none;
+    }
+    form {
+        height: 230px;
+        width: 200px;
+    }
+    form label {
+        font-size: 11px;
+    }
+    form input {
+        margin: 2px 0px 2px 0px;
+        padding: 2px 4px;
+        height: 5px;
+        width: 200px;
+    }
+    textarea {
+        height: 40px;
+        width: 200px;
+    }
+    button {
+        font-size: 5px;
+    }
+    nav {
+        font-size: 12px;
+    }
+    img.icon {
+        height: 13px;
+        width: 16px;
+    }
 }
